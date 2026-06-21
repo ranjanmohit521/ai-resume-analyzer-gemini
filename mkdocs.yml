@@ -1,11 +1,18 @@
-site_name: pyresparser
+site_name: AI Resume Analyzer
+
+site_description: AI-powered Resume Analyzer using Python, Streamlit, and Gemini API
+
+site_author: Mohit Ranjan
+
+repo_url: https://github.com/ranjanmohit521/ai-resume-analyzer-gemini
+
 nav:
-    - Home: index.md
-    - CLI: cli.md
-repo_url: https://github.com/OmkarPathak/pyresparser
-site_author: Omkar Pathak
-google_analytics: ['UA-111548790-1', 'omkarpathak.in']
+- Home: index.md
+- Features: features.md
+- Installation: installation.md
+- Usage: usage.md
+
 markdown_extensions:
-    - toc:
-        permalink: True
-        separator: "_"
+- toc:
+permalink: true
+separator: "_"
